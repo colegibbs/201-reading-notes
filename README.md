@@ -1,4 +1,4 @@
-# Welcome to Cole's Page
+# Welcome to Cole's Page!
 
 ![Picture of Cole! Lucky you!](/profile-photo.jpeg)
 
