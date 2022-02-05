@@ -6,4 +6,6 @@ Welcome visitors! My name is Cole Gibs I'd like to personally welcome you to my 
 
 ## Table of Contents
 
+[Code 102 Reading Notes](https://colegibbs.github.io/reading-notes/)
+
 [Reading 01 - ]()
