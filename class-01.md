@@ -1,4 +1,4 @@
-# HTML/CSS and JavaScript
+# Class 01 Reading Notes
 
 ## Introduction
 
