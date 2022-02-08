@@ -68,3 +68,25 @@ All of your pages can share the same file sheet. It is good practice. The rest o
 #### Different Versions and Browser Quirks
 
 There and different versions of css. Some browsers don't support all of the newest versions properties. Test your site on more than one browser before launch. Use different computers to test your site. Check your site on different OS. When a css property doesn't display properly it is considered a browser quirk or CSS bug.
+
+## JavaScript and Jquery
+
+### Chapter 2: Basic JavaScript Instrutions
+
+#### What is a variable?
+
+Temporarily stored data. Computer has to be told to remember names and values. The data in the variable can change each time the script runs.
+
+You declare variables use `let` and then picking a varable name `variableName`. You can then assign the `variableName` to a value using the assignment operator `=`
+
+`let variableName = 3;`
+
+#### Data Types
+
+- numbers
+- strings
+- booleans
+
+#### Quotes Inside a String
+
+You can use the other type than you used to set up the string or you can use the escape characgter `\`.
