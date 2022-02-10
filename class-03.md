@@ -1,5 +1,7 @@
 # Class 03 Reading Notes
 
+## ALL INFORMATION COMES FROM DUCKETT'S JAVASCRIPT AND HTML & CSS BOOKS
+
 ## HTML & CSS
 
 ### Chapter 3: Lists
@@ -132,7 +134,7 @@
 
 - `border-color`
 - can control the colors on differne side s with `border-top-color` syntax
-- can shorthand with clockwise assingment 
+- can shorthand with clockwise assingment
 
 #### Shorthand
 
@@ -173,11 +175,11 @@
 #### Change Inline/Block
 
 - `display`
-- allows you to turn inline into block or vice 
--  `inline` causes block level element to act like inline element
+- allows you to turn inline into block or vice
+- `inline` causes block level element to act like inline element
 - `block` inline element to act like block
 - `inline-block` causes block eleement to flow like an inline elemnt
-- `none` hides the element 
+- `none` hides the element
 
 #### Hiding Boxies
 
@@ -185,7 +187,7 @@
 - allows you to hide boxes but leaves a spce where the elemtn would be
 - values:
   - `hidden` hides the element
-  - `visible` shows the element 
+  - `visible` shows the element
 - if you want the elemtn to be hidden with no space use the dispay property with a `none` value
 
 #### Border Images
@@ -196,9 +198,9 @@
   1. the url image
   2. where to slice the image
   3. what to do with the stright edges
-    - `stretch` stretches the image
-    - `repeat` repeats the image
-    - `round` like repeat but scales the image
+      - `stretch` stretches the image
+      - `repeat` repeats the image
+      - `round` like repeat but scales the image
 - must also have a border width
 - `border-image: url("url") 11 11 11 11 stretch`
 
@@ -208,7 +210,7 @@
 - horizontal offset: negative values position the shadow to the left
 - vertial offset: negative values postition shadow to the top
 - blur distance: if not included the shadow has a solid line
-- spead of shadow: positive value will cause shadow to expand and negative will make it contaract 
+- spead of shadow: positive value will cause shadow to expand and negative will make it contaract
 - inset keyword will let you create an inner shaddow
 - `box-shadow: 5px 5px 5px 5px #777777`
 
@@ -227,7 +229,66 @@
 - `border-radius: 80px 50px` horisontal and vertical respectively
 - can target corner with `border-top-left-radius`
 
-#### Take Aways
+#### Take Aways 2
 
 - css treats html as if it has its own box
 - css controls box dimentsions
+
+## JS
+
+### Chapter 4: Decisions and Loops
+
+#### Switch Statements
+
+- starts with switch value
+- each case is code that should be run if this variable is a certain value
+- provides bettwer performance than multiple if statements
+
+#### Using Switch Statements
+
+- each case ends with a `break;` keyword
+
+#### Type coercion and weak typing
+
+- if you use a data type that js didn't expect js will try to make it work
+- js will change data types behind the sense this is called type coersion
+- js is weak typing b/c the type can change
+- this causes errors and thats why we use `===` insead of `==`
+
+#### Truthy and Falsy values
+
+- values that will evalues to false or true are called falsey and truthy values respectively
+- truthy: true, 1, 'carrot', 10/5, 'true', '0', 'false'
+- falsey: false, 0, '', 10/'score' (NaN), no assignment variable
+
+#### Checking Equality and Existence
+
+- a urary operator returns a reslutl with just one operands
+
+#### Short Circut Values
+
+- You can assign a value to something like this:
+- `var artist = 'alskdjf'`
+- `var artistA = (artist || 'Unknown')`
+- if artist exists then asisng artistA with the same value if not assign 'Unknown'
+
+#### Loops
+
+- Loops have conditions and will run as long as the condition is true
+- for loops
+  - code needs to run a number of times
+- while
+  - don't know how many times the code will need to run
+- do while
+  - similar to while
+  - it will run the code block at lease once
+  - then will check condition
+
+#### Key Loop Concepts
+
+- kewords will be used in a loop
+- `break;` causes the loop to stop
+- `continue;` causes the current iteration to stop and then update and then chekc the contidion.
+- loops are useful when dealing with arrays
+- if a loop contains a lot of items it can take a long time to load
+- variable that can be outside the loop should be outside the loop
