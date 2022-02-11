@@ -73,4 +73,47 @@
   - `relative`
     - allows you to shift the box top, right, left, or bottom of where it would normally be
   - `absoulte`
-    - 
+    - positions element in realtion to its containing element
+    - absolutle elements stay in the same place while users scroll
+  - `fixed`
+    - form of absolut element
+    - do not move when user scrolls
+  - `floating`
+    - can position it to the far left or right of the containing box
+- when chencing position the boxes can sometimes overlap
+  - the `z-index` property allows you to control which box is on top
+
+## JavaScript
+
+### Chapter 3
+
+#### What is a function?
+
+- lets you group statements to perfor a task
+- accept parameters
+- return values
+- call funtions to use them
+
+#### Immediately Invoked Function Expressions
+
+- iffes are function that are not given a name
+- they are executed once the interpreter hit them
+- they are written like a function expression, but have `()` around the function and after the last `}` there is another set of `()` that is also inside the first parenthasis
+
+### Article: 6 Reasons for Pair Programming
+
+#### How Does Pair Programming Work?
+
+- Driver: writes all of the code
+- Navigator: Tell the driver what to write, documents, no code written, research solutions
+- 4 aspects to learning a language
+  - listening
+  - reading
+  - writing
+  - speaking
+- pp works on all of these
+
+#### Greater Efficency
+
+- pp takes a little bit longer but also saves time on the debugging end so it actually saves time overal
+- higher quality code is generated
