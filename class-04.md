@@ -127,7 +127,7 @@
 #### Learning From Fellow Students
 
 - exposes developers to peers solutions
-- fills the gaps in experince and technique 
+- fills the gaps in experince and technique
 
 #### Social Skills
 
