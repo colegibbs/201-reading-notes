@@ -117,3 +117,29 @@
 
 - pp takes a little bit longer but also saves time on the debugging end so it actually saves time overal
 - higher quality code is generated
+
+#### Engaged Collaboration
+
+- results in more engagement
+- less likely to procrasonate
+- programmers can find solutions together so confidence is boosted
+
+#### Learning From Fellow Students
+
+- exposes developers to peers solutions
+- fills the gaps in experince and technique 
+
+#### Social Skills
+
+- improves social skills
+- improves communication skills
+- employers want people who work well with others
+
+#### Job Interview Readiness
+
+- employers will have an applicant pp with an empolyee to see how they fit in with the team
+- communication skills are as important as technical skills
+
+#### Work Environment Readiness
+
+- knowing how to pp give you a one up on the CS grads who still need to learn it
