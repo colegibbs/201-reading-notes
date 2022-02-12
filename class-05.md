@@ -103,3 +103,55 @@
   - third is lightness in %: 0% is white and 100% is black
 - `background-color: hsla(0,100%,100%,0.5)'`
   - same as hsl except fourth number represents alpha which is transperency from 0 to 1
+
+### Chapter 12
+
+#### Typeface Terminology
+
+- serif - has spikes on leters
+- sans-serif - standard text
+- monospace - jockoesque text
+- weight is thickness of text
+- style are things like italics or oblique
+- stretch is how condensed or narrow the text is
+- text height goes from the ascender which is the talles spot to the descender which is below the "line" the text is written on
+
+#### Choosing a Typeface for your Website
+
+- use `text-family`
+- there are many options
+
+#### Specify TypeFaces
+
+- `font-family: Georgia, Times, Serif;`
+- checks if hosting computer has each on
+
+#### Styling Links
+
+- `:link`
+- `:visited`
+- `:hover`
+- allows you to change text styling under the circumstances
+
+### Blog Post
+
+#### Tl;DR
+
+- jpeg: for natural images or images with color variation
+- png: for transperancy and images with text or sharp contrasts like in a logo
+- gif: for images that contain an animation
+
+#### Compression
+
+- images compress on the web and its imprtant to pick the right image format and size because of this
+- lossless and lossy compression
+- lossless losses no data or quality while lossy does
+- jpeg is lossy and is good for natural pictues with smooth color transitions
+- png is lossless and renders a lot clearer and sharper, but takes up more space on the disk
+- gif is lossless and is for animation
+
+#### Transparency
+
+- jpeg doesn't support this
+- png supports partial transparency and you can define a single color that is to be transparent
+- gifs support index transparency
