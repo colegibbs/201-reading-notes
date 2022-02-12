@@ -12,7 +12,6 @@
 - get get into trouble for just using any pic
 - many images look best on a simple consistent background
 
-
 #### Storing Images On Your Site
 
 - store images in serparate folder and subfolders(if you need)
@@ -65,7 +64,7 @@
 
 #### Image Dimensions
 
-- You can change the size and shape of images 
+- You can change the size and shape of images
 
 #### Cropping Images
 
@@ -90,4 +89,17 @@
 #### contrast
 
 - when deciding foreground and background color it's important to have enough contrast to see the text
-- 
+
+#### CSS3: Opacity
+
+- you can add opacity with `opacity:` 0.5 is 50% opacity and 1 is 100%
+- can also specify with `background-color` using rgba which is RGB but with a fourth value specifying opacity : `rgba(0,0,0,0.5)`
+
+#### CSS3: HSL and HSLA
+
+- `background-color: hsl(0,0%,78%);`
+  - first number represents the hue as a degree
+  - second is saturation in %
+  - third is lightness in %: 0% is white and 100% is black
+- `background-color: hsla(0,100%,100%,0.5)'`
+  - same as hsl except fourth number represents alpha which is transperency from 0 to 1
