@@ -31,3 +31,24 @@
 ## JavaScript
 
 ### Chapter 3: Object Literals
+
+- a key value pair is a property
+- a function is called a method
+- `objectName = {}`
+- to access value: `objectName.keyName`
+- to access value when using number of variable: `objectName['keyName']`
+
+### Chapter 4: Document Object Model
+
+- dom tree is a model of a web page kind of like html put in a root shape
+- can select elements use the dom
+- dom queries that return more than one element are called nodelists
+- you can select nodelsit items with the `.item()` method or array syntax
+- you can loop through a node list
+- you can access and update a text node with `nodeValue`
+- can access only text w/ `.textContent`
+- can add or remove html content with the `.innerHTML`
+- you can `.createElement()` and `createTextNode()` and `.appendChild()`
+- can remove child with `.removeChild()`
+- be careful using `.innerHTMl` because it's vulerable to attacks
+- can remove attribules
