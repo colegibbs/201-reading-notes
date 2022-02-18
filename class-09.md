@@ -60,5 +60,5 @@
 - you sometimes have to support older verison
 - elements can be targeted from outside in or inside out
 - you can prevent default behavior with a few different calls
-- use event delegation 
-- There are many different event types, all with different functions
+- use event delegation
+- There are many different event types, all with different function
