@@ -23,3 +23,5 @@ Welcome visitors! My name is Cole Gibs I'd like to personally welcome you to my 
 [Class 07 Reading Notes](/class-07.md)
 
 [Class 08 Reading Notes](/class-08.md)
+
+[Class 09 Reading Notes](/class-09.md)
