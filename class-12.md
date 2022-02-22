@@ -8,7 +8,7 @@
 - first you have to download chart.js
 - chart enters html at `<canvas>` tag
 - `<script>` must be added as well (from chart.js site)
-- there are many different types of charts you can make 
+- there are many different types of charts you can make
 
 ### Article: MDN
 
