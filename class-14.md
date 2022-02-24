@@ -54,7 +54,7 @@
 
 - add the fade class to use a fade
 - add the color class with psudoclass hover to change the color
-- grow and shrink 
+- grow and shrink
 - rotate at hover
 - shape change at hover
 - 3d shadow
